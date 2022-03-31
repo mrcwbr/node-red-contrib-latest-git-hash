@@ -1,0 +1,20 @@
+{
+  "name": "node-red-contrib-latest-git-hash",
+  "version": "1.0.0",
+  "description": "A simple node that added latestGitHash to your msg.payload",
+  "license": "ISC",
+  "author": "mrcwbr",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "node-red": "^2.2.2",
+    "node-red-node-test-helper": "^0.2.7"
+  },
+  "node-red": {
+    "nodes": {
+      "latest-git-hash": "latest-git-hash.js"
+    }
+  }
+}

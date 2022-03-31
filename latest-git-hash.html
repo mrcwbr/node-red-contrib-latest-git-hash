@@ -1,0 +1,26 @@
+<script type="text/javascript">
+  RED.nodes.registerType('latest-git-hash', {
+    category: 'function',
+    color: '#F05030',
+    defaults: {
+      name: {value: ""}
+    },
+    inputs: 1,
+    outputs: 1,
+    icon: "git-commit.svg",
+    label: function () {
+      return this.name || "latest-git-hash";
+    }
+  });
+</script>
+
+<script type="text/html" data-template-name="latest-git-hash">
+  <div class="form-row">
+    <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+    <input type="text" id="node-input-name" placeholder="Name">
+  </div>
+</script>
+
+<script type="text/html" data-help-name="latest-git-hash">
+  <p>A simple node that added <code>latestGitHash</code> to your <code>msg.payload</code></p>
+</script>
