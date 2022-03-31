@@ -7,7 +7,7 @@ module.exports = function(RED) {
     node.on('input', function(msg) {
       const buffer = require('child_process').execSync('git rev-parse HEAD')
       const latestGitHash = buffer.toString().trim();
-      const latestGitHashShort = latestGitHash.substr(0, 8);
+      const latestGitHashShort = latestGitHash.substring(0, 8);
 
       if (typeof msg.payload === 'object') {
         msg.payload = { ...msg.payload, latestGitHash, latestGitHashShort };

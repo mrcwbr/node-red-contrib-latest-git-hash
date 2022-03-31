@@ -16,7 +16,7 @@
   },
   "node-red": {
     "nodes": {
-      "latest-git-hash": "latest-git-hash.js"
+      "latest-git-hash": "./src/latest-git-hash.js"
     }
   }
 }

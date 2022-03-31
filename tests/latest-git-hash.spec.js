@@ -1,5 +1,5 @@
 const helper = require('node-red-node-test-helper');
-const lowerNode = require('../latest-git-hash');
+const lowerNode = require('../src/latest-git-hash');
 
 const hash = '169c335e97452983c1c30a16160e941f2f6c5ab6';
 const mockBuffer = Buffer.from(hash, 'utf-8');
