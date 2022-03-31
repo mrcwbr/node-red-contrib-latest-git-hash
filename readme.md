@@ -9,7 +9,8 @@
 
 A simple node that added `latestGitHash` and `latestGitHashShort` (8 chars) to your `msg.payload`.
 
-
 ## Installation
 
-`npm install node-red-contrib-latest-git-hash`
+1. `npm install node-red-contrib-latest-git-hash`
+2. Setup a Node Red project https://nodered.org/docs/user-guide/projects/
+3. use the `latest-git-hash` node
