@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "jest": "^27.5.1",
-    "node-red": "^2.2.2",
+    "node-red": "^3.0.2",
     "node-red-node-test-helper": "^0.2.7",
     "sonarqube-scanner": "^2.8.1"
   },
